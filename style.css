@@ -148,15 +148,38 @@ nav a{
     border: 0 solid black;
     border-radius: 30px;
     background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
-    padding: 15px 30px;
+    padding: 15px 20px;
     text-decoration: none;
     margin-top: 20px;   
 }
 
 input{
-    width: 60%;
+    width: 45%;
+    padding: 20px 50px;
+    border-radius: 30px;
 }
 
 footer{
     background-color: hsl(216, 53%, 9%);
+    padding: 50px 70px;
+}
+
+.flogo{
+    size: 70%;
+    margin-bottom: 50px;
+}
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: 2.5fr 2fr 1fr 1fr 2fr;
+    gap: 50px;
+}
+
+.fgrid img{
+    float: left;
+    margin-right: 20px;
+}
+
+.grid1 p{
+    float: right;
 }
