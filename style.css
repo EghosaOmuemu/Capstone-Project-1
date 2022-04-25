@@ -1,0 +1,162 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    color:hsl(0, 0%, 100%);
+    background-color: hsl(217, 28%, 15%);
+    
+    font-size: 14px;
+    font-family: Open Sans;
+}
+
+h1, h3{
+    font-family: Raleway;
+}
+
+header{
+    padding: 20px;
+}
+
+.logo{
+    float: left;
+}
+
+nav{
+    float: right;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.intro{
+    clear: both;
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+    background-image: url(images/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+}
+
+.intro h1{
+    width: 80%;
+    padding: auto;
+    margin: auto;
+}
+
+.intro p{
+    width: 55%;
+    padding: auto;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.intro a{
+    color: white;
+    border: 0 solid black;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    padding: 15px 80px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.intro a:hover, .signup a:hover{
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(176, 68%, 64%));
+}
+
+.details{
+    display: grid;
+    grid-template-columns: 35% 35%;
+    margin: auto;
+    gap: 40px 60px;
+    background-color: hsl(218, 28%, 13%);
+    justify-content: center;
+    width: 100%;
+}
+
+.grid-item{
+    text-align: center;
+    
+}
+
+.see{
+    display: grid;
+    grid-template-columns: 55% 30%;
+    justify-items: center;
+    background-color: hsl(218, 28%, 13%);
+    padding-top: 20px;
+}
+
+.see div h1{
+    font-weight: 700;
+    width: 70%;
+}
+
+.see div a{
+    color: hsl(176, 68%, 64%);
+}
+
+
+.testimonials{
+    clear: both;
+    display: flex;
+    column-gap: 15px;
+    margin: auto;
+    padding: 40px 20px;
+    background-color: hsl(218, 28%, 13%);
+    justify-content: center;
+}
+
+.flex-item{
+    background-color: hsl(219, 30%, 18%);
+    border: 0 solid black;
+    border-radius: 10px;
+    margin: 20px;
+    width: 25%;
+    padding: 40px 30px;
+    box-sizing: border-box;
+}
+
+.icon-tag img{
+    float: left;
+    width: 30px;
+    height: 30px;
+    border: 0 solid black;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.icon-tag p{
+    font-size: 9px;
+    line-height: 0.8em;
+}
+
+.signup{
+    width: 50%;
+    margin: auto;
+    background-color: hsl(217, 28%, 15%);
+    border: 0 solid black;
+    border-radius: 15px;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.signup a{
+    color: white;
+    border: 0 solid black;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    padding: 15px 30px;
+    text-decoration: none;
+    margin-top: 20px;   
+}
+
+input{
+    width: 60%;
+}
+
+footer{
+    background-color: hsl(216, 53%, 9%);
+}
