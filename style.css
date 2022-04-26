@@ -1,4 +1,10 @@
-.attribution { font-size: 11px; text-align: center; }
+.attribution { 
+    font-size: 11px; text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+    margin: auto;
+    width: 50%;
+}
 .attribution a { color: hsl(228, 45%, 44%); }
 
 body{
@@ -107,6 +113,7 @@ nav a{
     padding: 40px 20px;
     background-color: hsl(218, 28%, 13%);
     justify-content: center;
+    padding-bottom: 300px;
 }
 
 .flex-item{
@@ -141,6 +148,9 @@ nav a{
     border-radius: 15px;
     padding: 20px 20px;
     text-align: center;
+    position: absolute;
+    z-index: 2;
+    top: -15;
 }
 
 .signup a{
@@ -161,7 +171,22 @@ input{
 
 footer{
     background-color: hsl(216, 53%, 9%);
-    padding: 50px 70px;
+    padding: 50px 120px;
+    padding-bottom: 0;
+    width: 100%;
+    padding-top: 300px;
+    position: relative;
+    z-index: 1;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    line-height: 2em;
+}
+
+footer a:hover{
+    font-weight: 700;
 }
 
 .flogo{
@@ -171,15 +196,19 @@ footer{
 
 .footer-grid{
     display: grid;
-    grid-template-columns: 2.5fr 2fr 1fr 1fr 2fr;
+    grid-template-columns: 3fr 3fr 1fr 1fr 1fr;
     gap: 50px;
 }
 
 .fgrid img{
     float: left;
-    margin-right: 20px;
+    margin-right: 10px;
+    
 }
 
-.grid1 p{
-    float: right;
+.fgrid p{
+    float: left;
+    margin: 0 0;
+    width: 70%;
+   
 }
